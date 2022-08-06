@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/218a2895ce.js"
+      crossorigin="anonymous"
+    ></script>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="player">
+      <div class="dashboard">
+        <!-- header -->
+        <header>
+            <!-- <div class="header__song">
+                <h3>Song</h3>
+            </div> -->
+          <div class="header-title">
+            <h4>Quẩy lên nào</h4>
+            <h2>Nhạc hay là phải a quẩy</h2>
+          </div>
+          <!-- <div class="header__song">
+            <h3>Album yêu thích</h3>
+        </div> -->
+        </header>
+        <!-- CD -->
+        <div class="cd">
+          <div
+            class="cd-thumb"
+            style="
+              background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg');
+            "
+          ></div>
+        </div>
+        <!-- Control -->
+        <div class="control">
+          <div class="btn btn-repeat">
+            <i class="fas fa-redo"></i>
+          </div>
+          <div class="btn btn-prev">
+            <i class="fas fa-step-backward"></i>
+          </div>
+          <div class="btn btn-toggle-play">
+            <i class="fas fa-pause icon-pause"></i>
+            <i class="fas fa-play icon-play"></i>
+          </div>
+          <div class="btn btn-next">
+            <i class="fas fa-step-forward"></i>
+          </div>
+          <div class="btn btn-random">
+            <i class="fas fa-random"></i>
+          </div>
+        </div>
+        <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100"/>
+        <audio id="audio" src=""></audio>
+        <!--  -->
+      </div>
+      <!-- Playlist -->
+      <div class="playlist"></div>
+    </div>
+    <div id="toast">
+      <!-- toast success-->
+      
+    </div>
+ 
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
